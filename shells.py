@@ -4,7 +4,7 @@ import os
 def main(argv):
 	ip = argv[2]
 	port = argv[3]
-	shell_file = os.path.expanduser('~') + "/usr/share/shells/templates/" + argv[1]
+	shell_file = "/usr/share/shells/templates/" + argv[1]
 
 	try:
 		f = open(shell_file, "r")
