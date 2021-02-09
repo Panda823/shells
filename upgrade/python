@@ -1,0 +1,4 @@
+python -c 'import pty; pty.spawn("/bin/bash")'
+bg
+stty raw -echo
+fg

